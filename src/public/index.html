@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <link rel="stylesheet" href="./css/style.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Subir productos</title>
+    </head>
+    <body>
+        <section class="formulario-productos">
+            <form action="/api/products/formulario" method="POST">
+                <h1>Subir productos desdes aquí</h1>
+                <input class="input-form" type="text" name="title" id="title" placeholder="Nombre del producto">
+                <input class="input-form" type="text" name="price" id="price" placeholder="Ingrese el valor">
+                <input class="input-form" type="text" name="thumbnail" id="thumbnail" placeholder="Ingrese url de la imagen">
+                <input class="input-form" type="text" name="code" id="code" placeholder="Ingrese codigo de producto">
+                <input class="input-form" type="text" name="stock" id="stock" placeholder="Ingrese stock de producto">
+                <input class="input-form" type="text" name="category" id="category" placeholder="Ingrese categoria de producto">
+                <input class="input-form" type="text" name="description" id="description" placeholder="Descripcion">
+                <label>
+                    <input type="checkbox" name="status" id="status" value="true" checked required>
+                    Status
+                </label>  
+                <input class="boton" type="submit" value="Cargar">
+            </form>
+        </section>
+    </body>
+</html>
+
+

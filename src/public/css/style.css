@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #0F2027;
+  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+}
+
+.formulario-productos{
+  background: #000000;
+  padding: 30px;
+  color: #fff;
+  width: 400px;
+  margin: 1rem auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.formulario-productos form{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.formulario-productos h1{
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 1.4;
+  margin-bottom: 1rem;
+}
+
+.input-form{
+  width: 100%;
+  background: #f7f7f7;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #c51f9c;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+  color: #000;
+}
+
+.boton{
+  width: 100%;
+  background: #c51f9c;
+  border: none;
+  padding: 1rem;
+  color: #fff;
+  font-size: 1rem;
+}
+
+input[type=checkbox] {
+  transform: scale(1.5);
+  margin-right: 10px; 
+}
